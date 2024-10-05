@@ -8,7 +8,6 @@ export default function Home() {
       {produtos.map((produto) => {
         return <ProdutoItem key={produto.id} produto={produto}/>
       })}
-   
     </div>
   );
 }
